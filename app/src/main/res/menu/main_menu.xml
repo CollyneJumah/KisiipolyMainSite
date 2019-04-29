@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_site"
+            android:icon="@drawable/ic_website"
+            android:title="Main Site" />
+
+        <item
+            android:id="@+id/nav_portal"
+            android:icon="@drawable/ic_portal"
+            android:title="Student Portal" />
+
+        <item
+            android:id="@+id/nav_onlineApplication"
+            android:icon="@drawable/ic_online_course"
+            android:title="Online Courses" />
+
+        <item
+            android:id="@+id/nav_departments"
+            android:icon="@drawable/ic_departments"
+            android:title="Academic Departments" />
+        <item
+            android:id="@+id/nav_programs"
+            android:icon="@drawable/ic_programs"
+            android:title="Academic Programs" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_download"
+                android:icon="@drawable/ic_download"
+                android:title="Downloads" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <!--<item-->
+                <!--android:id="@+id/nav_location"-->
+                <!--android:icon="@drawable/ic_location"-->
+                <!--android:title="Location" />-->
+        </menu>
+    </item>
+
+    <item android:title="Online Support">
+        <menu>
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_chat"
+                android:title="Talk to Assistant" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_info"
+                android:title="Info" />
+            <item android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_help"
+                android:title="FAQ" />
+
+        </menu>
+    </item>
+</menu>

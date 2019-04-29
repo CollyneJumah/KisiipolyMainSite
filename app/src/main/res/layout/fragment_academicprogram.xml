@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+    <android.support.v7.widget.Toolbar
+        tools:targetApi="LOLLIPOP"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        app:title="@string/title"
+        app:titleTextColor="@android:color/white"
+        app:subtitle="@string/subtitle"
+        android:background="@color/mainTheme"
+        app:titleTextAppearance="?android:textAppearanceLarge"
+        android:elevation="20dp"
+        />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="16dp"
+            android:background="@android:color/white"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:text="@string/introduction"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:elevation="4dp"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:overScrollMode="always"
+                android:layout_height="match_parent"
+                app:cardElevation="2dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="start"
+                    android:layout_gravity="center_horizontal|start"
+                    android:layout_height="match_parent"
+                    android:text="@string/appliedScie" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/btnAppliedScience"
+                    android:background="@drawable/oval_shape"
+                    android:src="@drawable/ic_eye_black_24dp"
+                    android:layout_gravity="bottom"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:elevation="12dp"
+                    android:tooltipText="View program"
+                    android:stateListAnimator="@drawable/animat"/>
+
+            </android.support.v7.widget.CardView>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:requiresFadingEdge="horizontal"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:src="@mipmap/ic_applied_sciences_foreground"
+
+                    />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:elevation="8dp"
+            android:background="@android:color/white"
+            android:padding="10dp"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:overScrollMode="always"
+                android:layout_height="match_parent"
+                app:cardElevation="2dp"
+                android:padding="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="start"
+                    android:layout_gravity="center_horizontal|start"
+                    android:layout_height="match_parent"
+                    android:text="@string/buildingCe" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/btnBuildingCe"
+                    android:background="@drawable/oval_shape"
+                    android:src="@drawable/ic_eye_black_24dp"
+                    android:layout_gravity="bottom"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:elevation="12dp"
+                    android:tooltipText="View program"
+                    android:stateListAnimator="@drawable/animat"/>
+
+            </android.support.v7.widget.CardView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:requiresFadingEdge="horizontal"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_applied_sciences_foreground"
+
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:elevation="12dp"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:overScrollMode="always"
+                android:layout_height="match_parent"
+                app:cardElevation="2dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="start"
+                    android:layout_gravity="center_horizontal|start"
+                    android:layout_height="match_parent"
+                    android:text="@string/schoolBuss" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/btnBusiness"
+                    android:background="@drawable/oval_shape"
+                    android:src="@drawable/ic_eye_black_24dp"
+                    android:layout_gravity="bottom"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:elevation="12dp"
+                    android:tooltipText="View program"
+                    android:stateListAnimator="@drawable/animat"/>
+            </android.support.v7.widget.CardView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:requiresFadingEdge="horizontal"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_applied_sciences_foreground"
+
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:elevation="16dp"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:overScrollMode="always"
+                android:layout_height="match_parent"
+                app:cardElevation="2dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="start"
+                    android:layout_gravity="center_horizontal|start"
+                    android:layout_height="match_parent"
+                    android:text="@string/eEE" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/btnEee"
+                    android:background="@drawable/oval_shape"
+                    android:src="@drawable/ic_eye_black_24dp"
+                    android:layout_gravity="bottom"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:elevation="12dp"
+                    android:tooltipText="View program"
+                    android:stateListAnimator="@drawable/animat"/>
+            </android.support.v7.widget.CardView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:requiresFadingEdge="horizontal"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_applied_sciences_foreground"
+
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:elevation="20dp"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:overScrollMode="always"
+                android:layout_height="match_parent"
+                app:cardElevation="2dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="start"
+                    android:layout_gravity="center_horizontal|start"
+                    android:layout_height="match_parent"
+                    android:text="@string/healthSciences" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/btnHealthScie"
+                    android:background="@drawable/oval_shape"
+                    android:src="@drawable/ic_eye_black_24dp"
+                    android:layout_gravity="bottom"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:elevation="12dp"
+                    android:tooltipText="View program"
+                    android:stateListAnimator="@drawable/animat"/>
+            </android.support.v7.widget.CardView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:requiresFadingEdge="horizontal"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_applied_sciences_foreground"
+
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:elevation="24dp"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:overScrollMode="always"
+                android:layout_height="match_parent"
+                app:cardElevation="2dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="start"
+                    android:layout_gravity="center_horizontal|start"
+                    android:layout_height="match_parent"
+                    android:text="@string/institutionMangt" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/btnInstitute"
+                    android:background="@drawable/oval_shape"
+                    android:src="@drawable/ic_eye_black_24dp"
+                    android:layout_gravity="bottom"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:elevation="12dp"
+                    android:tooltipText="View program"
+                    android:stateListAnimator="@drawable/animat"/>
+            </android.support.v7.widget.CardView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:requiresFadingEdge="horizontal"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_applied_sciences_foreground"
+
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:elevation="28dp"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:overScrollMode="always"
+                android:layout_height="match_parent"
+                app:cardElevation="2dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="start"
+                    android:layout_gravity="center_horizontal|start"
+                    android:layout_height="match_parent"
+                    android:text="@string/computing" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/btnComputing"
+                    android:background="@drawable/oval_shape"
+                    android:src="@drawable/ic_eye_black_24dp"
+                    android:layout_gravity="bottom"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:elevation="12dp"
+                    android:tooltipText="View program"
+                    android:stateListAnimator="@drawable/animat"/>
+
+            </android.support.v7.widget.CardView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:requiresFadingEdge="horizontal"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_applied_sciences_foreground"
+
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:elevation="32dp"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:overScrollMode="always"
+                android:layout_height="match_parent"
+                app:cardElevation="2dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="start"
+                    android:layout_gravity="center_horizontal|start"
+                    android:layout_height="match_parent"
+                    android:text="@string/automotiveCivilEngineer" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/btnAutomotiveCe"
+                    android:background="@drawable/oval_shape"
+                    android:src="@drawable/ic_eye_black_24dp"
+                    android:layout_gravity="bottom"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:elevation="12dp"
+                    android:tooltipText="View program"
+                    android:stateListAnimator="@drawable/animat"/>
+            </android.support.v7.widget.CardView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:requiresFadingEdge="horizontal"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_applied_sciences_foreground"
+
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:elevation="36dp"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:overScrollMode="always"
+                android:layout_height="match_parent"
+                app:cardElevation="2dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="start"
+                    android:layout_gravity="center_horizontal|start"
+                    android:layout_height="match_parent"
+                    android:text="@string/communicationDevS" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:id="@+id/btnCommunicationDs"
+                    android:background="@drawable/oval_shape"
+                    android:src="@drawable/ic_eye_black_24dp"
+                    android:layout_gravity="bottom"
+                    android:elevation="12dp"
+                    android:tooltipText="View program"
+                    android:stateListAnimator="@drawable/animat"/>
+
+            </android.support.v7.widget.CardView>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:requiresFadingEdge="horizontal"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_applied_sciences_foreground"
+
+                />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

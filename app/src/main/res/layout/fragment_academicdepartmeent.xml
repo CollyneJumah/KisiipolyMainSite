@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+    <Toolbar
+        tools:targetApi="lollipop"
+        android:layout_margin="16dp"
+        android:title="Academic Departments"
+        android:titleTextAppearance="?android:textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:layout_gravity="center"
+        android:contextClickable="true"
+        android:titleMargin="@dimen/cardview_compat_inset_shadow"
+        android:subtitle="Kisiipoly Academic Departments."
+
+        android:titleTextColor="#1F5C21"
+        android:elevation="20dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:id="@+id/image_"
+            android:onClick="onClickTest"
+            android:src="@mipmap/ic_main_logo"
+            android:padding="10dp"/>
+    </Toolbar>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal"
+       android:clickable="false"
+       android:gravity="center"
+       android:layout_margin="10dp"
+       android:layout_gravity="center"
+       >
+       <FrameLayout
+           android:id="@+id/frame_admin"
+           android:layout_width="130dp"
+           android:layout_height="150dp"
+           android:clickable="true"
+           android:focusable="true"
+           android:foreground="?attr/selectableItemBackground"
+           android:layout_margin="16dp"
+           android:background="#fff"
+           android:elevation="8dp"
+           >
+           <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="120dp"
+               android:id="@+id/admin_image"
+               android:scaleType="fitXY"
+               android:onClick="onClickTest"
+               android:layout_gravity="fill"
+               android:src="@mipmap/ic_admin_foreground"
+               android:padding="3dp"
+               android:adjustViewBounds="true"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Administration"
+               android:layout_gravity="center|bottom"
+               android:textAppearance="?android:textAppearanceSmall"
+               android:textColor="@color/mainTheme"
+               android:paddingBottom="10dp"
+               android:textStyle="bold" />
+       </FrameLayout>
+
+       <FrameLayout
+
+           android:id="@+id/frame_mechanicalE"
+           android:layout_width="130dp"
+           android:layout_height="150dp"
+           android:clickable="true"
+           android:focusable="true"
+           android:foreground="?attr/selectableItemBackground"
+           android:layout_margin="16dp"
+           android:background="#fff"
+           android:elevation="8dp">
+
+           <ImageView
+
+               android:id="@+id/image_mechanichalE"
+               android:layout_width="fill_parent"
+               android:layout_height="120dp"
+               android:scaleType="fitXY"
+               android:onClick="onClickTest"
+               android:layout_gravity="fill"
+               android:src="@mipmap/ic_mechanical_foreground"
+               android:padding="3dp"
+               android:adjustViewBounds="true"
+              />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Mechanical Engineering"
+               android:layout_gravity="center|bottom"
+               android:paddingBottom="10dp"
+               android:gravity="center|bottom"
+               android:textAppearance="?android:textAppearanceSmall"
+               android:textColor="@color/mainTheme"
+               android:textStyle="bold" />
+       </FrameLayout>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:clickable="false"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        >
+        <FrameLayout
+
+            android:id="@+id/frame_institutionM"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="16dp"
+            android:background="#fff"
+            android:elevation="8dp">
+
+            <ImageView
+                android:id="@+id/image_institutionM"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:onClick="onClickTest"
+                android:layout_gravity="fill"
+                android:src="@mipmap/ic_institutionmanagement_foreground"
+                android:padding="3dp"
+                android:adjustViewBounds="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Institution Management"
+                android:layout_gravity="center|bottom"
+                android:gravity="center|bottom"
+                android:paddingBottom="10dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/mainTheme"
+                android:textStyle="bold" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/frame_eee"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="16dp"
+            android:background="#fff"
+            android:elevation="8dp"
+            >
+            <ImageView
+                android:id="@+id/image_Eee"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:onClick="onClickTest"
+                android:layout_gravity="fill"
+                android:src="@mipmap/ic_electrical_foreground"
+                android:padding="3dp"
+                android:adjustViewBounds="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electrical Electronics Engineering"
+                android:layout_gravity="center|bottom"
+                android:gravity="center|bottom"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/mainTheme"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:clickable="false"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        >
+        <FrameLayout
+            android:id="@+id/frame_bs"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="16dp"
+            android:background="#fff"
+            android:elevation="8dp"
+            >
+            <ImageView
+                android:id="@+id/image_businessS"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:onClick="onClickTest"
+                android:layout_gravity="fill"
+                android:src="@mipmap/ic_businessstudies_foreground"
+                android:padding="3dp"
+                android:adjustViewBounds="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Studies"
+                android:layout_gravity="center|bottom"
+                android:gravity="center|bottom"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/mainTheme"
+                android:paddingBottom="10dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_computerS"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="16dp"
+            android:background="#fff"
+            android:elevation="8dp" >
+            <ImageView
+                android:id="@+id/image_computerS"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:onClick="onClickTest"
+                android:layout_gravity="fill"
+                android:src="@mipmap/ic_computing_foreground"
+                android:padding="3dp"
+                android:adjustViewBounds="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Computer Studies"
+                android:layout_gravity="center|bottom"
+                android:gravity="center|bottom"
+                android:paddingBottom="10dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/mainTheme"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:clickable="false"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        >
+        <FrameLayout
+            android:id="@+id/frame_communicationDS"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="16dp"
+            android:background="#fff"
+            android:elevation="8dp">
+
+            <ImageView
+                android:id="@+id/image_communityDs"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:onClick="onClickTest"
+                android:layout_gravity="fill"
+                android:src="@mipmap/ic_communitydev_foreground"
+                android:padding="3dp"
+                android:adjustViewBounds="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Communication Development Studies"
+                android:layout_gravity="center|bottom"
+                android:gravity="center|bottom"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/mainTheme"
+                android:textStyle="bold" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/frame_healthS"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="16dp"
+            android:background="#fff"
+            android:elevation="8dp"
+            >
+            <ImageView
+                android:id="@+id/image_healthS"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:onClick="onClickTest"
+                android:layout_gravity="fill"
+                android:src="@mipmap/ic_healthsci_foreground"
+                android:padding="3dp"
+                android:adjustViewBounds="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Health Science"
+                android:layout_gravity="center|bottom"
+                android:gravity="center|bottom"
+                android:paddingBottom="10dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/mainTheme"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:clickable="false"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        >
+
+        <FrameLayout
+            android:id="@+id/frame_appliedS"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="16dp"
+            android:background="#fff"
+            android:elevation="8dp"
+            >
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/image_appliedS"
+                android:layout_marginTop="2dp"
+                android:scaleType="fitXY"
+                android:onClick="onClickTest"
+                android:layout_gravity="fill"
+                android:src="@mipmap/ic_applied_sciences_foreground"
+                android:padding="3dp"
+                android:adjustViewBounds="true"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Applied Sciences"
+                android:layout_gravity="center|bottom"
+                android:gravity="center|bottom"
+                android:paddingBottom="10dp"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/mainTheme"
+                android:textStyle="bold" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/frame_buildingCE"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="16dp"
+            android:background="#fff"
+            android:elevation="8dp"
+            >
+            <ImageView
+                android:id="@+id/image_buidingCe"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:onClick="onClickTest"
+                android:layout_gravity="fill"
+                android:src="@mipmap/ic_building_foreground"
+                android:padding="3dp"
+                android:adjustViewBounds="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Building and Civil Engineering"
+                android:layout_gravity="center|bottom"
+                android:gravity="center|bottom"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/mainTheme"
+                android:paddingBottom="10dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>

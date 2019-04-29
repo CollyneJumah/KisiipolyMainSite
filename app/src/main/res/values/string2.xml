@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Academic Programs</string>
+    <string name="subtitle">Kisiipoly Academic Programs</string>
+    <string name="introduction">
+        <b>The following programs are oferred in Kisii National Polytechnic:</b>
+    </string>
+
+    <string name="appliedScie">
+        <b>School of Applied Science.</b>
+         \n\n
+        <p>Cry for a Shadow Many a Beatle fanatic started down the outtake road, like I did.</p>
+
+    </string>
+
+    <string name="buildingCe">
+        <b>School of Building and Civil Engineering.</b>
+         \n\n
+        <p>Cry for a Shadow Many a Beatle fanatic started down the outtake road, like I did.</p>
+    </string>
+
+    <string name="schoolBuss">
+        <b>School of Business.</b>
+         \n\n
+        <p>Cry for a Shadow Many a Beatle fanatic started down the outtake road, like I did.</p>
+    </string>
+
+    <string name="eEE">
+        <b>School of Electrical and Electronic Engineering.</b>
+         \n\n
+        <p>Cry for a Shadow Many a Beatle fanatic started down the outtake road, like I did.</p>
+    </string>
+
+    <string name="healthSciences">
+        <b>School of Health Sciences.</b>
+         \n\n
+     <small>The Lost Lennon Tapes Vol. 28</small>
+        <p>Cry for a Shadow Many a Beatle fanatic started down the outtake road, like I did.</p>
+    </string>
+
+    <string name="institutionMangt">
+        <b>School of Institution Management.</b>
+         \n\n
+        <p>Cry for a Shadow Many a Beatle fanatic started down the outtake road, like I did.</p>
+    </string>
+
+    <string name="computing">
+        <b>School of Computing.</b>
+         \n\n
+        <p>Cry for a Shadow Many a Beatle fanatic started down the outtake road, like I did.</p>
+    </string>
+
+    <string name="automotiveCivilEngineer">
+        <b>School of Automotive and Civil Engineering.</b>
+         \n\n
+        <p>Cry for a Shadow Many a Beatle fanatic started down the outtake road, like I did.</p>
+    </string>
+
+    <string name="communicationDevS">
+        <b>School of Communication and Development Studies.</b>
+         \n\n
+        <p>Cry for a Shadow Many a Beatle fanatic started down the outtake road.</p>
+    </string>
+</resources>

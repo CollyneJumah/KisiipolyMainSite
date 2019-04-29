@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mission">
+        <b>Mission</b>
+         \n\n
+        <p>To develop highly qualified, globally competitive and innovative human
+            resource by providing quality Training, applied Research and
+            extension and Entrepreneurship skills that are responsive to market demands
+        </p>
+
+    </string>
+
+    <string name="vision">
+        <b>Vision</b>
+         \n\n
+        <p>To be the preferred training institution, for technical and vocational skills development.</p>
+    </string>
+
+    <string name="mandate">
+        <b>Mandate:</b>
+         \n\n
+        <p>The mandate of the polytechnic is to develop an institution with excellence in teaching, training, scholarship, entrepreneurship, research, consultancy,
+            community service and products with emphasis on technology, its development, impact and application within and outside Kenya;</p>
+    </string>
+
+    <string name="corevalue">
+        <b>Core Values:</b>
+         \n\n
+       <small>The Kisii National Polytechnic is committed to and will be identified by the following core values.</small>
+        \n
+       <b>i.Professionalism and Excellence:</b>
+        <p>We believe in delivering excellent services using best practices.</p>
+        \n
+        <b>ii.Creativity and Innovativeness:</b><p> We believe in diversity and inclusion and thus constantly seek fresh approaches, new ideas and different outlooks to achieve success.</p>
+        \n
+        <b>iii.Team work:</b>
+        <p>We all work together courage for the betterment of our institution. </p>
+        \n
+        <b>iv.Integrity: </b>
+        <p>We are committed to acting in an honest, trustworthy, countable and transparent manner in our operations.</p>
+        \n
+        <b>v.Accountability and transparency:</b>
+        <p>We will perform in a manner at all times that makes us accountable, responsible, and answerable to our customers and other stakeholders both external and internal.</p>
+    </string>
+
+</resources>
